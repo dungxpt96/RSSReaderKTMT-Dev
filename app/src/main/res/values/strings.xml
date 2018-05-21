@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RSSReader</string>
+    <string name="facebook_app_id">248597282367053</string>
+    <string name="fb_login_protocol_scheme">fb248597282367053</string>
+</resources>

@@ -1,0 +1,25 @@
+<tabs>
+    <tab
+        icon="@drawable/ic_search"
+        id="@+id/tab_search"
+        title="" />
+
+    <tab
+        icon="@drawable/ic_history"
+        id="@+id/tab_history"
+        title="" />
+
+    <tab
+        icon="@drawable/ic_home"
+        id="@+id/tab_home"
+        title="" />
+    <tab
+        icon="@drawable/ic_bookmark"
+        id="@+id/tab_bookmark"
+        title="" />
+    <tab
+        icon="@drawable/ic_love"
+        id="@+id/tab_love"
+        title="" />
+
+</tabs>

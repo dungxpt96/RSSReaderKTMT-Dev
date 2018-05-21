@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_button_size">31dip</dimen>
+    <dimen name="tab_indicator_height">2dip</dimen>
+    <dimen name="margin_normal">8dip</dimen>
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="padding_small">3sp</dimen>
+    <dimen name="padding_normal">5dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="evelation_small">3dp</dimen>
+    <dimen name="corner_small">4dp</dimen>
+</resources>

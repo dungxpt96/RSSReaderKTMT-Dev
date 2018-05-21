@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7F0E8C</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgroundActionBar">#AC15BD</color>
+    <color name="bottom_selected">#F5BB00</color>
+    <color name="bookmark_slected">#97f5bb00</color>
+    <color name="bookmark_unslected">#9759d6bf</color>
+    <color name="bottom_unselected">#ffffff</color>
+    <color name="background">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="color_checkbox">#85ffffff</color>
+    <color name="text_dark">#626262</color>
+    <color name="dark_light">#B5B5B5</color>
+    <color name="text_blue">#3E1CB1</color>
+    <color name="text_gray">#6C6C6C</color>
+    <color name="white_gray">#F2EFEF</color>
+</resources>

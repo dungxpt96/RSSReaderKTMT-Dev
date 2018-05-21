@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FacebookActivity">
+
+    <include layout="@layout/header_bar" />
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/imageProfilePicture"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:background="#FF3346AD"
+        android:fontFamily="serif"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvFTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Title  "
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:background="#FF3346AD"
+            android:fontFamily="serif"/>
+
+        <EditText
+            android:id="@+id/edtTitle"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            android:textColor="#ff00ff"
+            android:fontFamily="serif"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvFDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Description  "
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:background="#FF3346AD"
+            android:fontFamily="serif"/>
+
+        <EditText
+            android:id="@+id/edtDes"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#ff00ff"
+            android:fontFamily="serif"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvFUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  URL  "
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:background="#FF3346AD"
+            android:fontFamily="serif"/>
+
+        <EditText
+            android:id="@+id/edtUrl"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="asdfasl fjlkasdjfl sadlfkalsdk fjlasd jlasdjfladsjflkadjflakdsfladjfl adlkfjaldskjfalsdjkflasdjflkds"
+            android:textColor="#ff00ff"
+            android:fontFamily="serif"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btOKShare"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textSize="18dp"
+        android:fontFamily="serif"
+        android:text="  Share link  "
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:background="#FF3346AD"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

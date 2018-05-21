@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/btBack"
+        android:src="@drawable/ic_back"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/btShare"
+        android:src="@mipmap/ic_public_set"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_toLeftOf="@id/btLove"
+        />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/btBookMark"
+        android:layout_toStartOf="@+id/btLove"
+        android:src="@drawable/ic_bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/btLove"
+        android:src="@drawable/ic_love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/btRecycleBin"
+        android:src="@drawable/ic_recycle_bin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/btCheck"
+        android:src="@drawable/ic_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/btClose"
+        android:src="@drawable/ic_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/btCheck"
+        android:layout_margin="10dp"
+        />
+</RelativeLayout>

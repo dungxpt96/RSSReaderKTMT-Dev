@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpgHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabNewsPaper"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionbar_button_size"
+            app:tabBackground="@color/backgroundActionBar"
+            app:tabGravity="center"
+            app:tabIndicatorColor="@color/bottom_selected"
+            app:tabIndicatorHeight="@dimen/tab_indicator_height"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/bottom_selected"
+            app:tabTextAppearance="@style/TabTeaxtAppearance"
+            app:tabTextColor="@color/bottom_unselected" />
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
